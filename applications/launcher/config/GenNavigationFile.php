@@ -43,6 +43,18 @@ $Navigation_config = array(
                     'redirect' => 0
                 )
             )
+        ),
+
+        'CmdDefaultInicio' => array(
+            'class' => 'CmdDefaultInicio',
+            'validated' => 'false',
+            'desc' => 'Cargar Forma Error',
+            'views' => array(
+                'success' => array(
+                    'view' => 'Default.tpl',
+                    'redirect' => 0
+                )
+            )
         )
 
 	) // Fin arreglo de comandos	
